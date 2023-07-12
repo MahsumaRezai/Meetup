@@ -1,6 +1,5 @@
 import { Fragment } from "react";
 import MeetupList from '../components/meetups/MeetupList';
-import Layout from  '../components/layout/Layout'
 
 const DUMMY_MEETUP = [{
     id: 'm1',
@@ -19,10 +18,8 @@ const DUMMY_MEETUP = [{
 const HomePage = () => {
     return (
         <Fragment>
-            <Layout>
             <MeetupList meetups={DUMMY_MEETUP} />
 
-            </Layout>
 
         </Fragment>
     )
